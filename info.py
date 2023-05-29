@@ -20,8 +20,10 @@ BOT_TOKEN = environ['BOT_TOKEN']
 # Bot settings
 CACHE_TIME = int(environ.get('CACHE_TIME', 300))
 USE_CAPTION_FILTER = bool(environ.get('USE_CAPTION_FILTER', True))
+) 
 
-PICS = (environ.get('PICS', 'https://telegra.ph/file/6a0726f79acd8300e9a04.jpg https://telegra.ph/file/68289fefb76dbc43b766d.jpg https://telegra.ph/file/0caad29c0cf91c23fb1b6.jpg https://telegra.ph/file/8c34c755dd16581c1c6b5.jpg https://telegra.ph/file/365e35b554e5a3ea83857.jpg https://telegra.ph/file/07f185825c5b7bfd6fbfb.jpg https://telegra.ph/file/85f95494565a762edb3e7.jpg https://telegra.ph/file/708a1d6ce805fcc6a46d0.jpg https://telegra.ph/file/d799c1a964f211028cc97.jpg https://telegra.ph/file/b987425b80bca0cf45c7e.jpg https://telegra.ph/file/2a8b3779760289b76de24.jpg https://telegra.ph/file/47961be968719b3e24cf0.jpg https://telegra.ph/file/2e127b0f6b1810d733c09.jpg https://telegra.ph/file/281b18770a43a29120252.jpg https://telegra.ph/file/2086dd2aa8382e758a599.jpg https://telegra.ph/file/fcc849db4bf5c517f0f8d.jpg')).split()
+PICS = (environ.get('PICS', 'https://graph.org/file/54a3f751fd638b619fcdc.jpg https://graph.org/file/2b6b956c9f9fc41e12579.jpg https://graph.org/file/954d14623cc7438bc3756.jpg https://graph.org/file/583400931a9455271974f.jpg https://graph.org/file/9f315ca46040ccd32aad0.jpg https://graph.org/file/419354ed1459ff6b41575.jpg https://graph.org/file/ea173bbf3a8f17baa71e8.jpg https://graph.org/file/18b44d48fb6f2538c6b8e.jpg https://graph.org/file/a469f0557b843b3336ee8.jpg https://graph.org/file/64fe171ff1c238a7772f0.jpg https://graph.org/file/6ad58471fc1994fc52034.jpg https://graph.org/file/6dcea7220cddee156a413.jpg https://graph.org/file/15734d8cab7486880f9cb.jpg https://graph.org/file/095f005bd4b1e37665425.jpg')).split()
+
 NOR_IMG = environ.get("NOR_IMG", "https://telegra.ph/file/46443096bc6895c74a716.jpg")
 MELCOW_VID = environ.get("MELCOW_VID", "https://telegra.ph/file/451f038b4e7c2ddd10dc0.mp4")
 SPELL_IMG = environ.get("SPELL_IMG", "https://telegra.ph/file/5e2d4418525832bc9a1b9.jpg")
